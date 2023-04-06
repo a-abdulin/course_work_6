@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "course-work-6"
+version = "0.1.0"
+description = ""
+authors = ["a-abdulin <abdulin@list.ru>"]
+readme = "README.md"
+packages = [{include = "course_work_6"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.5"
+drf-spectacular = "^0.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
